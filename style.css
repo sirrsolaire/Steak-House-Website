@@ -38,9 +38,9 @@ nav {
   align-items: center;
 }
 
-.link-color {
+/* .link-color {
   color: white;
-}
+} */
 
 a:link {
   text-decoration: none;
@@ -50,14 +50,14 @@ a:hover {
   color: gray;
 }
 
+#login-color {
+  color: #0e1111;
+}
+
 .login {
   background-color: rgb(216, 214, 214);
   padding: 5px 10px;
   border-radius: 10px;
-}
-
-.login-color {
-  color: #0e1111;
 }
 
 .background {
