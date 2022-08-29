@@ -40,7 +40,6 @@ nav {
 }
 .background {
   background-color: #0e1111;
-  width: 100vw;
   height: 75vh;
 }
 
@@ -100,3 +99,30 @@ p {
   align-self: flex-end;
   margin-bottom: -50px;
 }
+
+.section-wrapper-two {
+  margin-top: 50px;
+  background-color: #0e1111;
+}
+
+.section-header {
+  padding: 30px;
+  background-color: #0e1111;
+}
+
+.section-header-head {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.flexes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.group-flex {
+  display: flex;
+  margin-top: -3px;
+}
+
