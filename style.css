@@ -38,26 +38,39 @@ nav {
   align-items: center;
 }
 
-/* .link-color {
-  color: white;
-} */
-
-a:link {
+a:link,
+a:visited {
   text-decoration: none;
   color: white;
 }
+
 a:hover {
   color: gray;
 }
 
-#login-color {
-  color: #0e1111;
+a:active {
+  color: #b6833f;
 }
 
-.login {
-  background-color: rgb(216, 214, 214);
+#login-color {
+  color: #0e1111;
+  background-color: white;
   padding: 5px 10px;
   border-radius: 10px;
+}
+
+/* #login-color:visited {
+  color: blue;
+} */
+
+#login-color:hover {
+  color: white;
+  background-color: #b6833f;
+}
+
+#login-color:active {
+  color: grey;
+  background-color: burlywood;
 }
 
 .background {
