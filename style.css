@@ -1,10 +1,10 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
-header {
+.header-first {
   background-color: #0e1111;
   display: flex;
   justify-content: space-around;
@@ -33,24 +33,31 @@ nav {
   gap: 40px;
   list-style: none;
   font-size: 17px;
-  font-family: "gobold-light", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
 }
 .background {
   background-color: #0e1111;
-  height: 75vh;
+  width: 100%;
+  height: 90vh;
 }
 
+.grilled-steak {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 
 #video {
   object-fit: cover;
-  /* object-position: center; */
+  object-position: center;
   width: 100%;
   height: 100%;
   filter: brightness(70%);
-  /* background-size: cover; */
-}
+  background-size: cover;
+} */
 
 .bg-wrapper {
   /* width: 960px;
@@ -72,7 +79,7 @@ nav {
   display: flex;
 }
 
-h2 {
+.title-size {
   color: #b6833f;
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -99,30 +106,3 @@ p {
   align-self: flex-end;
   margin-bottom: -50px;
 }
-
-.section-wrapper-two {
-  margin-top: 50px;
-  background-color: #0e1111;
-}
-
-.section-header {
-  padding: 30px;
-  background-color: #0e1111;
-}
-
-.section-header-head {
-  font-family: "Lato", sans-serif;
-  font-size: 30px;
-  color: whitesmoke;
-}
-
-.flexes {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.group-flex {
-  display: flex;
-  margin-top: -3px;
-}
-
